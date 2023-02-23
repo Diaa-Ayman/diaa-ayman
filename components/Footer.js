@@ -17,8 +17,8 @@ export default function Footer() {
           This is Me, Diaa Ayman!
         </span>
       </div>
-      <div className=" py-2 px-8 bg-black shadow-sm rounded-xl mx-8 md:mx-0 lg:mr-24  shadow-yellow-200 lg:shadow-none lg:border-none">
-        <ul className="flex items-center space-x-24 lg:space-x-12">
+      <div className=" py-2 px-8 bg-black shadow-sm rounded-xl lg:mr-24  shadow-yellow-200 lg:shadow-none lg:border-none">
+        <ul className="flex items-center  space-x-16 lg:space-x-12">
           {["resume", "hello", "work"].map((ele) => (
             <li
               key={ele}

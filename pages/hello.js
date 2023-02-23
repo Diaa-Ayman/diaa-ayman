@@ -7,7 +7,7 @@ export default function Tutorials() {
       <Head>
         <title>Hello frined!</title>
       </Head>
-      <div className="text-xl text-white mt-24 md:mt-0">
+      <div className="text-xl text-white mt-36 lg:mt-0">
         <div className="flex justify-center rounded-md  m-auto  w-fit">
           <motion.div
             initial={{ x: "-100vw" }}
@@ -21,7 +21,7 @@ export default function Tutorials() {
             }}
             className="welcome text-yellow-500 space-y-20 mt-12 z-40  lg:mt-28 lg:-mr-20"
           >
-            <h1 className=" text-[6rem] md:text-[6rem] lg:text-[8rem] font-bold text-white font-paci">
+            <h1 className=" text-[4em] md:text-[6rem] lg:text-[8rem] font-bold text-white font-paci">
               Hello.
             </h1>
             <motion.div
@@ -36,7 +36,7 @@ export default function Tutorials() {
               }}
               className=""
             >
-              <h3 className="text-sm lg:text-lg text-yellow-400 font-semibold ml-16 lg:ml-28 -mt-8">
+              <h3 className="text-[.7rem] lg:text-lg text-yellow-400 font-semibold ml-16 lg:ml-28 -mt-8">
                 I'm Diaa Ayman, A Software Engineer...
               </h3>
             </motion.div>
@@ -51,11 +51,11 @@ export default function Tutorials() {
               ease: "easeInOut",
               stiffness: 70,
             }}
-            className="image h-[400px] overflow-hidden z-20"
+            className="image z-20"
           >
             <img
               src="/assets/hello.png"
-              className="w-[400px] h-[300px] object-cover md:h-auto md:w-auto"
+              className="w-[300px] h-[270px] object-cover md:h-auto md:w-auto"
               alt="no no no"
             />
           </motion.div>
