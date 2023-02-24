@@ -40,7 +40,7 @@ export default function PieceOfWork({ number, name }) {
       ) : null}{" "}
       <motion.div
         animate={animtion}
-        className="max-w-[350px] max-h-[200px] overflow-hidden"
+        className="w-[350px] h-[200px] overflow-hidden "
       >
         {/* <img
           loading="lazy"
@@ -50,7 +50,7 @@ export default function PieceOfWork({ number, name }) {
         <img
           src={`/assets/projects/app-${number}.png`}
           alt="appImg"
-          className="group-hover:scale-105 transition-transform duration-200 ease-in-out opacity-95 group-hover:opacity-100"
+          className="h-full w-full  object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out opacity-95 group-hover:opacity-100"
         />
       </motion.div>
       {!(number % 2) ? (
