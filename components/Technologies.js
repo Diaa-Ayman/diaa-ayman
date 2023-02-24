@@ -63,6 +63,10 @@ export const technologies = [
     Icon: SiTypescript,
   },
   {
+    skill: "Java",
+    Icon: FaJava,
+  },
+  {
     skill: "React Js",
     Icon: FaReact,
   },
@@ -85,10 +89,6 @@ export const technologies = [
   {
     skill: "Express",
     Icon: SiExpress,
-  },
-  {
-    skill: "Java",
-    Icon: FaJava,
   },
   {
     skill: "Seleinum",

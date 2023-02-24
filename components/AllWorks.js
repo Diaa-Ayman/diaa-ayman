@@ -1,7 +1,44 @@
 import PieceOfWork from "./PieceOfWork";
 import { motion } from "framer-motion";
 function AllWorks(props) {
-  const arr = [1, 2, 3, 4, 5, 6, 7, 3, 3, 3, 2, 2, 2, 2, , 2, 2];
+  const arr = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+
+  const works = [
+    {
+      name: "Amazon-Clone",
+    },
+    {
+      name: "Chat App",
+    },
+    {
+      name: "D-Shop",
+    },
+    {
+      name: "Medium-clone",
+    },
+    {
+      name: "Food-App",
+    },
+    {
+      name: "Facebook-clone",
+    },
+    {
+      name: "Instagram-clone",
+    },
+    {
+      name: "twitter-clone",
+    },
+    {
+      name: "Whatsapp-2-clone",
+    },
+    {
+      name: "Shop",
+    },
+    {
+      name: "TenDog",
+    },
+  ];
+
   return (
     <motion.div
       // initial={{ x: "100vw" }}
@@ -12,10 +49,10 @@ function AllWorks(props) {
       //   type: "spring",
       //   bounce: 0.3,
       // }}
-      className={` ${props.className}  mb-8 overflow-y-scroll scrollbar-hide  grid gap-8 lg:gap-3 grid-cols-1 md:grid-cols-2`}
+      className={` ${props.className}  mb-8 overflow-y-scroll scrollbar-hide h-screen  grid gap-8 lg:gap-3 grid-cols-1`}
     >
-      {arr.map((ele, index) => (
-        <PieceOfWork key={index} />
+      {works.map((work, index) => (
+        <PieceOfWork key={index} number={index + 1} name={work.name} />
       ))}
     </motion.div>
   );

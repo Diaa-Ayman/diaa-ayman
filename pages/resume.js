@@ -28,6 +28,10 @@ export default function Tutorials() {
       title: "Selenium WebDriver From Foundation to Framework [In Arabic]",
       desc: "Java, Selenium, Maven, Testng, POM, cucmber, Sauce Labs",
     },
+    {
+      title: "Some of College Courses",
+      desc: "C++, Data structures, Algorithms, Computer HardWare",
+    },
   ];
   return (
     <Layout className="text-lg text-white">
@@ -89,7 +93,7 @@ export default function Tutorials() {
                   {" "}
                   <LanguageIcon className="w-6 h-6 font-bold text-yellow-500" />
                 </div>
-                <span className="font-bold text-xl">Languages.</span>
+                <span className="font-bold text-xl">Languages</span>
               </header>
               <div className="type space-y-3">
                 <ResumeItem title="Arabic  (Native)" />

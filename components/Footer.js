@@ -59,7 +59,8 @@ export default function Footer() {
           style={iconsStyle}
         />
         <SocialIcon
-          url="github.com"
+          url="https://github.com"
+          target="_blank"
           bgColor="white"
           fgColor="black"
           style={iconsStyle}
