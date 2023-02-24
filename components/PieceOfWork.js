@@ -28,7 +28,7 @@ export default function PieceOfWork({ number, name }) {
     <Link
       ref={ref}
       href={""}
-      className="flex items-center transition-all duration-500 group border border-gray-900 rounded"
+      className="flex items-center transition-all duration-500 group border border-gray-900"
     >
       {number % 2 ? (
         <div className="bg-gray-900 opacity-60 text-[3.2rem] text-white w-[300px] h-full relative">
@@ -40,7 +40,7 @@ export default function PieceOfWork({ number, name }) {
       ) : null}{" "}
       <motion.div
         animate={animtion}
-        className="w-[350px] h-[200px] overflow-hidden "
+        className="max-w-[350px] max-h-[200px] min-w-[350px] min-h-[160px] overflow-hidden"
       >
         {/* <img
           loading="lazy"
@@ -50,7 +50,7 @@ export default function PieceOfWork({ number, name }) {
         <img
           src={`/assets/projects/app-${number}.png`}
           alt="appImg"
-          className="h-full w-full  object-cover group-hover:scale-105 transition-transform duration-200 ease-in-out opacity-95 group-hover:opacity-100"
+          className="group-hover:scale-105 transition-transform duration-200 ease-in-out opacity-95 group-hover:opacity-100"
         />
       </motion.div>
       {!(number % 2) ? (
