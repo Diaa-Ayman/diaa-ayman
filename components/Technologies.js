@@ -23,6 +23,7 @@ import {
   SiMongodb,
   SiJavascript,
   SiTypescript,
+  SiGraphql,
 } from "react-icons/si";
 
 export const technologies = [
@@ -77,6 +78,10 @@ export const technologies = [
   {
     skill: "Redux",
     Icon: SiRedux,
+  },
+  {
+    skill: "GraphQl",
+    Icon: SiGraphql,
   },
   {
     skill: "Node Js",

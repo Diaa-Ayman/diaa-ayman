@@ -16,6 +16,6 @@
     @apply text-xs font-bold text-black absolute bg-white p-1 rounded-lg;
   }
   .arrow-container {
-    @apply hidden z-50  w-[370px] hover:cursor-pointer fixed  h-screen rounded-lg md:grid place-items-center transition-all duration-300 px-4 cursor-pointer;
+    @apply hidden z-30  w-[370px] hover:cursor-pointer fixed  h-screen rounded-lg md:grid place-items-center transition-all duration-300 px-4 cursor-pointer;
   }
 }

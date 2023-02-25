@@ -4,7 +4,7 @@ import { useEffect } from "react";
 import { useInView } from "react-intersection-observer";
 import img from "../public/assets/facebook-clone.png";
 import Image from "next/image";
-export default function PieceOfWork({ number, name }) {
+export default function PieceOfWork({ number, name, demo }) {
   const { ref, inView } = useInView();
   const animtion = useAnimation();
 
@@ -27,13 +27,14 @@ export default function PieceOfWork({ number, name }) {
   return (
     <Link
       ref={ref}
-      href={""}
+      href={demo}
+      target="_blank"
       className="flex items-center transition-all duration-500 group border border-gray-900"
     >
       {number % 2 ? (
         <div className="bg-gray-900 opacity-60 text-[3.2rem] text-white w-[300px] h-full relative">
           <span className="absolute bottom-4 left-2">{number}</span>
-          <span className="text-white font-semibold text-sm absolute bottom-0 right-2">
+          <span className="text-white font-semibold text-sm absolute top-0 right-2">
             {name}
           </span>
         </div>
@@ -56,7 +57,7 @@ export default function PieceOfWork({ number, name }) {
       {!(number % 2) ? (
         <div className="bg-gray-900 opacity-60 text-[3.2rem] text-white w-[300px] h-full relative">
           <span className="absolute bottom-4 left-2">{number}</span>
-          <span className="text-white font-semibold text-sm absolute bottom-0 right-2">
+          <span className="text-white font-semibold text-sm absolute top-0 right-2">
             {name}
           </span>
         </div>

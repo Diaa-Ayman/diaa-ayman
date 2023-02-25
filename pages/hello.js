@@ -1,11 +1,12 @@
 import Layout from "@/components/Layout";
 import { motion } from "framer-motion";
 import Head from "next/head";
+
 export default function Tutorials() {
   return (
     <Layout className="text-lg text-white">
       <Head>
-        <title>Hello frined!</title>
+        <title>Hello, friend!</title>
       </Head>
       <div className="text-xl text-white mt-36 lg:mt-0">
         <div className="flex justify-center rounded-md  m-auto  w-fit">
@@ -36,9 +37,22 @@ export default function Tutorials() {
               }}
               className=""
             >
-              <h3 className="text-[.7rem] lg:text-lg text-yellow-400 font-semibold ml-16 lg:ml-28 -mt-8">
+              <h3 className="text-[.8rem] lg:text-lg  text-white font-semibold ml-16 lg:ml-28 -mt-8 -mb-16 leading-4">
                 I'm Diaa Ayman, A Software Engineer...
+                <span
+                  className="block text-[10px] font-normal
+                 lg:text-base text-yellow-500 tracking-tighter"
+                >
+                  Frontend Development, Automation Testing
+                </span>
               </h3>
+              {/* <motion.div className="mt-20 ml-16 lg:ml-28 w-[70%] lg:w-[45%]">
+                <h5 className="text-xs leading-4">
+                  I am passionate about bringing clients' visions to life.
+                  Moreover, I have managed several projects for a diverse client
+                  base.
+                </h5>
+              </motion.div> */}
             </motion.div>
           </motion.div>
           <motion.div
