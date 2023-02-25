@@ -16,7 +16,7 @@ export default function Home() {
   }, []);
 
   const delayShowModal = () => {
-    setTimeout(() => ctx.showModal(), 5000);
+    setTimeout(() => ctx.showModal(), 4000);
   };
   delayShowModal();
   return (
