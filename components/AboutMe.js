@@ -92,17 +92,26 @@ export default function () {
                 Close
               </button>
               <div className="flex items-center space-x-4">
-                <Link href="https://twitter.com" target="_blank">
-                  <SiTwitter className="w-4 h-4 text-[#1D9BF0]" />
+                <Link
+                  href="https://twitter.com"
+                  target="_blank"
+                  className="bg-white rounded-full w-6 h-6 grid place-items-center p-1"
+                >
+                  <SiTwitter className="w-4 h-4 text-yellow-500 hover:text-[#1D9BF0]" />
                 </Link>
                 <Link
                   href="https://www.linkedin.com/in/diaa-ayman-727a3a220/"
                   target="_blank"
+                  className="bg-white rounded-full w-6 h-6 grid place-items-center p-1"
                 >
-                  <SiLinkedin className="w-4 h-4 text-[#0A66C2]" />
+                  <SiLinkedin className="w-4 h-4 text-yellow-500 hover:text-[#0A66C2]" />
                 </Link>
-                <Link href="https://github.com/Diaa-Ayman" target="_blank">
-                  <SiGithub className="w-4 h-4 text-white" />
+                <Link
+                  href="https://github.com/Diaa-Ayman"
+                  target="_blank"
+                  className="bg-white rounded-full w-6 h-6 grid place-items-center p-1 hover:text-white"
+                >
+                  <SiGithub className="w-4 h-4 text-yellow-500" />
                 </Link>
               </div>
             </div>

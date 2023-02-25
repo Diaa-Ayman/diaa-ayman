@@ -36,16 +36,16 @@ export default function Footer() {
       </div>
       <div className="hidden lg:flex items-center space-x-4">
         <Link href="https://twitter.com" target="_blank">
-          <SiTwitter className="w-5 h-5 text-yellow-500" />
+          <SiTwitter className="w-5 h-5 text-yellow-500 hover:text-[#1D9BF0]" />
         </Link>
         <Link
           href="https://www.linkedin.com/in/diaa-ayman-727a3a220/"
           target="_blank"
         >
-          <SiLinkedin className="w-5 h-5 text-yellow-500" />
+          <SiLinkedin className="w-5 h-5 text-yellow-500 hover:text-[#0A66C2]" />
         </Link>
         <Link href="https://github.com/Diaa-Ayman" target="_blank">
-          <SiGithub className="w-5 h-5 text-yellow-500" />
+          <SiGithub className="w-5 h-5 text-yellow-500 hover:text-white" />
         </Link>
       </div>
     </motion.div>
