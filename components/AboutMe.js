@@ -4,8 +4,9 @@ import { GoLocation } from "react-icons/go";
 import { AiTwotonePhone } from "react-icons/ai";
 import Contact from "./Contact";
 import { ModalContext } from "@/store/modal-ctx";
-import { SiGithub, SiLinkedin } from "react-icons/si";
+import { SiGithub, SiLinkedin, SiTwitter } from "react-icons/si";
 import { motion } from "framer-motion";
+import Link from "next/link";
 export default function () {
   const contacts = [
     {
@@ -90,9 +91,19 @@ export default function () {
               >
                 Close
               </button>
-              <div className="contact-icons text-white flex items-center space-x-4">
-                <SiGithub className="" />
-                <SiLinkedin className="" />
+              <div className="flex items-center space-x-4">
+                <Link href="https://twitter.com" target="_blank">
+                  <SiTwitter className="w-4 h-4 text-[#1D9BF0]" />
+                </Link>
+                <Link
+                  href="https://www.linkedin.com/in/diaa-ayman-727a3a220/"
+                  target="_blank"
+                >
+                  <SiLinkedin className="w-4 h-4 text-[#0A66C2]" />
+                </Link>
+                <Link href="https://github.com/Diaa-Ayman" target="_blank">
+                  <SiGithub className="w-4 h-4 text-white" />
+                </Link>
               </div>
             </div>
           </div>

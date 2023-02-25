@@ -4,7 +4,7 @@ import Dot from "../Dot";
 
 export default function ResumeItem({ title, date, desc }) {
   return (
-    <div className="edu-body bg-black opacity-90  p-1 rounded w-[80%] ">
+    <div className="edu-body bg-black opacity-90  p-1 rounded lg:w-[80%] ">
       <div className="flex  space-x-5">
         <Dot />
         <div className="text-lg font-semibold tracking-[-.5px] mt-0 leading-5">
