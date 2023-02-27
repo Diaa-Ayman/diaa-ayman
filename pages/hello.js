@@ -8,7 +8,7 @@ export default function Tutorials() {
       <Head>
         <title>Hello, friend!</title>
       </Head>
-      <div className="text-xl text-white mt-36 lg:mt-0">
+      <div className="text-xl text-white h-[70vh] mt-36 lg:mt-0 overflow-hidden">
         <div className="flex justify-center rounded-md  m-auto  w-fit">
           <motion.div
             initial={{ x: "-100vw" }}
@@ -22,7 +22,7 @@ export default function Tutorials() {
             }}
             className="welcome text-yellow-500 space-y-20 mt-12 z-40  lg:mt-28 lg:-mr-20"
           >
-            <h1 className=" text-[4em] md:text-[6rem] lg:text-[8rem] font-bold text-white font-paci">
+            <h1 className=" text-[4em] md:text-[6rem] lg:text-[7rem] font-bold text-white font-paci">
               Hello.
             </h1>
             <motion.div
@@ -37,13 +37,13 @@ export default function Tutorials() {
               }}
               className=""
             >
-              <h3 className="text-[.8rem] lg:text-lg  text-white font-semibold ml-16 lg:ml-28 -mt-8 -mb-16 leading-4">
+              <h3 className="text-[.8rem] lg:text-[1.1rem]  text-white font-semibold ml-16 lg:ml-28 -mt-8 -mb-16 leading-4">
                 I'm Diaa Ayman, A Software Engineer...
                 <span
                   className="block text-[10px] font-normal
-                 lg:text-base text-yellow-500 tracking-tighter"
+                 lg:text-base text-yellow-500 tracking-tighter italic"
                 >
-                  Frontend Development, Automation Testing
+                  Frontend Development, Test Automation
                 </span>
               </h3>
               {/* <motion.div className="mt-20 ml-16 lg:ml-28 w-[70%] lg:w-[45%]">

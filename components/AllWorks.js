@@ -62,7 +62,7 @@ function AllWorks(props) {
       //   type: "spring",
       //   bounce: 0.3,
       // }}
-      className={` ${props.className}  mb-8 overflow-y-scroll scrollbar-hide h-screen  grid gap-8 lg:gap-3 grid-cols-1`}
+      className={` ${props.className}  mb-8 overflow-y-scroll scrollbar-hide  grid gap-8 lg:gap-3 grid-cols-1`}
     >
       {works.map((work, index) => (
         <PieceOfWork

@@ -24,10 +24,10 @@ export default function Header() {
     >
       <span></span>
       <div className="text-black p-2 rounded-md flex items-center justify-center text-sm font-bold bg-white">
-        <CodeBracketIcon className="w-9 h-9 text-gray-900" />
+        <CodeBracketIcon className="w-7 h-7 text-black" />
       </div>
       <button className="text-white" onClick={showAboutModal}>
-        <Bars3BottomLeftIcon className="w-8 h-8 text-gray-100" />
+        <Bars3BottomLeftIcon className="w-7 h-7 text-white hover:text-yellow-500" />
       </button>
     </motion.div>
   );

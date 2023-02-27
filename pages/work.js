@@ -9,7 +9,7 @@ export default function Tutorials() {
       <Head>
         <title>Diaa Ayman - Work</title>
       </Head>
-      <div className=" text-xl text-white flex flex-row justify-center flex-1 lg:justify-between px-4 lg:px-14">
+      <div className=" text-xl text-white flex h-[70vh] flex-row justify-center flex-1 lg:justify-between px-4 lg:px-14">
         <motion.div
           initial={{ x: "-100vw" }}
           transition={{

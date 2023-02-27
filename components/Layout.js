@@ -45,7 +45,7 @@ export default function Layout(props) {
       >
         {/* <MdDoubleArrow className="w-10 h-10 text-yellow-400" /> */}
         <img
-          className="opacity-90 hover:opacity-100 w-[60%]"
+          className="opacity-90 hover:opacity-100 w-[50%]"
           src="/assets/arrow.png"
           onClick={linkLeft}
         />
@@ -62,13 +62,13 @@ export default function Layout(props) {
         className="arrow-container -right-[200px] "
       >
         <img
-          className="opacity-90 hover:opacity-100 w-[60%]"
+          className="opacity-90 hover:opacity-100 w-[50%]"
           src="/assets/arrow.png"
           onClick={linkRight}
         />
       </motion.div>
 
-      <main className="flex-1 mb-20 mx-4 md:mx-24 lg:mx-36 z-10">
+      <main className="flex-1 mb-20  mx-4 md:mx-24 lg:mx-36 z-10">
         {props.children}
       </main>
       <Footer />
